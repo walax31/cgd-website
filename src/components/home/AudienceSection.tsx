@@ -1,19 +1,7 @@
 import { ArrowRight } from "lucide-react";
 
 import Container from "@/components/ui/Container";
-
-const audiences = [
-  {
-    title: "สำหรับประชาชน",
-    description: "บริการและข้อมูลสำหรับประชาชนทั่วไป",
-    className: "bg-cyan-500",
-  },
-  {
-    title: "สำหรับเจ้าหน้าที่ภาครัฐ",
-    description: "บริการและระบบงานสำหรับหน่วยงานภาครัฐ",
-    className: "bg-blue-700",
-  },
-];
+import { audiences } from "@/data/data";
 
 export default function AudienceSection() {
   return (
