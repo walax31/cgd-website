@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+:root {
+  --cgd-primary: #034cbd;
+  --cgd-primary-hover: #023f9f;
+}
+
 html {
   scroll-behavior: smooth;
 }
